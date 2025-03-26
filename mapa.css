@@ -1,0 +1,15 @@
+/* Resaltar las áreas del mapa (coordenadas) */
+area.coordenadas {
+    transition: all 2s ease;
+}
+
+/* Efecto cuando se pasa el cursor sobre las áreas */
+area.coordenadas:hover {
+    outline: 1px solid #ff0101;  /* Resalta con un borde azul */
+    background-color: rgb(255, 0, 0);  /* Fondo semitransparente azul */
+}
+
+/* Definir un borde para las áreas (opcional) */
+area.coordenadas {
+    cursor: pointer; /* Cambia el cursor cuando se pasa sobre el área */
+}
